@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c72139d5b5ccb48ea3a9c34652edcb10",
-    "content-hash": "1a560b579e4489de581d679b93f09aab",
+    "hash": "9389ac0b4c4665ab98b5b1c1739d2ce1",
+    "content-hash": "344c7a2a4b54e3fd7d87ab406bf37cb0",
     "packages": [
         {
             "name": "composer/installers",
@@ -109,21 +109,21 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7.3",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a"
+                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
-                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/24edf4daca6bc15ad3b78c5927468df487d47a37",
+                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.7.3",
-                "johnpbloch/wordpress-core-installer": "~0.2",
+                "johnpbloch/wordpress-core": "4.8.0",
+                "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
             "type": "package",
@@ -144,20 +144,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-03-18 04:47:24"
+            "time": "2017-06-08 15:12:19"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.7.3",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "21255f593ac7db93892724321f468c276b15aa65"
+                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/21255f593ac7db93892724321f468c276b15aa65",
-                "reference": "21255f593ac7db93892724321f468c276b15aa65",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/58f209dfd66f61c4398a47cf53e90d378abc25d7",
+                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7",
                 "shasum": ""
             },
             "require": {
@@ -181,20 +181,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-03-06 18:43:41"
+            "time": "2017-06-08 15:12:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,8 @@
                 "composer/installers": "<1.0.6"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev"
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": ">=4.8.35"
             },
             "type": "composer-plugin",
             "extra": {
@@ -229,7 +230,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2017-05-31 18:42:33"
         },
         {
             "name": "oscarotero/env",
@@ -382,15 +383,15 @@
         },
         {
             "name": "wpackagist-plugin/better-click-to-tweet",
-            "version": "5.0.2",
+            "version": "5.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-click-to-tweet/",
-                "reference": "tags/5.0.2"
+                "reference": "tags/5.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-click-to-tweet.5.0.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/better-click-to-tweet.5.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -402,15 +403,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.4",
+            "version": "4.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.4"
+                "reference": "tags/4.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -422,15 +423,15 @@
         },
         {
             "name": "wpackagist-theme/purus",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/purus/",
-                "reference": "1.2.1"
+                "reference": "1.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/purus.1.2.1.zip",
+                "url": "https://downloads.wordpress.org/theme/purus.1.2.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -444,16 +445,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.8.1",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d"
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
-                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dcbed1074f8244661eecddfc2a675430d8d33f62",
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62",
                 "shasum": ""
             },
             "require": {
@@ -518,7 +519,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-03-01 22:17:45"
+            "time": "2017-05-22 02:43:20"
         }
     ],
     "aliases": [],
