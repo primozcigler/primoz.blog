@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9db6ea331187e775c890c1a67c2ec43f",
-    "content-hash": "c738f06c0946bf8749ec5ffa4f62ad28",
+    "hash": "a7545d447964b50b8e295dec0d332740",
+    "content-hash": "70bbde55ac979cdeb36d88d5f95f3ee4",
     "packages": [
         {
             "name": "composer/installers",
@@ -410,6 +410,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-click-to-tweet/"
+        },
+        {
+            "name": "wpackagist-plugin/disqus-comment-system",
+            "version": "2.87",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
+                "reference": "tags/2.87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.2.87.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",

@@ -41,7 +41,8 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-theme/purus": "*",
     "wpackagist-plugin/wordpress-seo": "^4.2.1",
-    "wpackagist-plugin/better-click-to-tweet": "^5.0.2"
+    "wpackagist-plugin/better-click-to-tweet": "^5.0.2",
+    "wpackagist-plugin/disqus-comment-system": "^2.87"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
