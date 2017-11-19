@@ -27,7 +27,7 @@
 		<!-- Content -->
 		<?php the_content(); ?>
 
-		<p>You should follow me on twitter, <a href="https://twitter.com/">here</a>.</p>
+		<p>You should follow me on twitter, <a href="https://twitter.com/primozcigler">here</a>.</p>
 
 		<!-- Multi Page in One Post -->
 		<?php
