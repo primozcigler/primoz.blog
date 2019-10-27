@@ -36,11 +36,11 @@
     "php": ">=5.6",
     "composer/installers": "~1.2.0",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "^4.9.0",
+    "johnpbloch/wordpress": "^5.2.4",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-theme/purus": "*",
-    "wpackagist-plugin/wordpress-seo": "^4.2.1",
+    "wpackagist-plugin/wordpress-seo": "^12.3",
     "wpackagist-plugin/better-click-to-tweet": "^5.0.2",
     "wpackagist-plugin/disqus-comment-system": "^2.87"
   },
